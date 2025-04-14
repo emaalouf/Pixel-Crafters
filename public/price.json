@@ -1,0 +1,39 @@
+[
+    {
+      "id": "standard",
+      "title": "Standard",
+      "price": "$30",
+      "billing": "Per Month",
+      "features": [
+        "5 website",
+        "10 Subdomains",
+        "15 Domains",
+        "Unlimited Support"
+      ]
+    },
+    {
+      "id": "business",
+      "title": "Business",
+      "price": "$60",
+      "billing": "Per Month",
+      "features": [
+        "5 website",
+        "10 Subdomains",
+        "15 Domains",
+        "Unlimited Support"
+      ]
+    },
+    {
+      "id": "premium",
+      "title": "Premium",
+      "price": "$90",
+      "billing": "Per Month",
+      "features": [
+        "5 website",
+        "10 Subdomains",
+        "15 Domains",
+        "Unlimited Support"
+      ]
+    }
+  ]
+  

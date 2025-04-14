@@ -1,0 +1,27 @@
+[
+    {
+      "name": "James Clayton",
+      "title": "Design Expert",
+      "image": "clayton.jpg",
+      "review": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor."
+    },
+    {
+      "name": "James Simmons",
+      "title": "Marketing Expert",
+      "image": "simmons.jpg",
+      "review": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor."
+    },
+    {
+      "name": "Alex Feroundo",
+      "title": "Founder",
+      "image": "feroundo.jpg",
+      "review": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor."
+    },
+    {
+      "name": "Kallu Mastan",
+      "title": "Creative Lead",
+      "image": "mastan.jpg",
+      "review": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor."
+    }
+  ]
+  

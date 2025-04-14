@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Marina Mojo",
+        "role": "Developer",
+        "image": "marina-mojo.jpg"
+    },
+    {
+        "name": "Ayoub Fennouni",
+        "role": "Logo Expert",
+        "image": "ayoub-fennouni.jpg"
+    },
+    {
+        "name": "Mark Linomi",
+        "role": "Marketer",
+        "image": "mark-linomi.jpg"
+    },
+    {
+        "name": "Amira Yerden",
+        "role": "UI/UX Designer",
+        "image": "amira-yerden.jpg"
+    }
+]

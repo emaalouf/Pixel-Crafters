@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Fully Responsive",
+        "description": "Lorem ipsum dolor sit amet consetetur diam sadipscing elitr sed diam nonumy eirmod.",
+        "icon": "FaMobileAlt"
+    },
+    {
+        "title": "Perfect for all",
+        "description": "Lorem ipsum dolor sit amet consetetur diam sadipscing elitr sed diam nonumy eirmod.",
+        "icon": "FaDesktop"
+    },
+    {
+        "title": "Easy To Customize",
+        "description": "Lorem ipsum dolor sit amet consetetur diam sadipscing elitr sed diam nonumy eirmod.",
+        "icon": "FaPaintBrush"
+    },
+    {
+        "title": "24/7 Support",
+        "description": "Lorem ipsum dolor sit amet consetetur diam sadipscing elitr sed diam nonumy eirmod.",
+        "icon": "FaHeadset"
+    }
+]

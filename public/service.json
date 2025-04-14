@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Website Audit",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.",
+        "icon": "website-audit"
+    },
+    {
+        "title": "Backlink Service",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.",
+        "icon": "backlink"
+    },
+    {
+        "title": "SEO Service",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.",
+        "icon": "seo"
+    },
+    {
+        "title": "Amazon Affiliate",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.",
+        "icon": "affiliate"
+    },
+    {
+        "title": "Paid Media",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.",
+        "icon": "paid-media"
+    },
+    {
+        "title": "Outreach Service",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae accusantium consectetur.",
+        "icon": "outreach"
+    }
+]

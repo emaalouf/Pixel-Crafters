@@ -1,0 +1,63 @@
+[
+    {
+      "id": "1",
+      "title": "Modern Website",
+      "category": "web",
+      "image": "/project-1.jpg",
+      "link": "/projects/1",
+      "liveLink": "https://modernwebsite.example.com",
+      "description": "This is a modern responsive website built with React and Tailwind CSS. It features a clean UI and fast performance.",
+      "technologies": ["React", "Tailwind CSS", "JavaScript"]
+    },
+    {
+      "id": "2",
+      "title": "Mobile App",
+      "category": "app",
+      "image": "/project-2.jpg",
+      "link": "/projects/2",
+      "liveLink": "https://mobileapp.example.com",
+      "description": "A sleek mobile app for both iOS and Android users. Built with React Native and features real-time notifications.",
+      "technologies": ["React Native", "Firebase", "Redux"]
+    },
+    {
+      "id": "3",
+      "title": "Creative Logo",
+      "category": "branding",
+      "image": "/project-3.jpg",
+      "link": "/projects/3",
+      "liveLink": "https://creativelogo.example.com",
+      "description": "A minimal and modern logo design created for a creative agency. Focused on brand identity and visual appeal.",
+      "technologies": ["Adobe Illustrator", "Photoshop"]
+    },
+    {
+      "id": "4",
+      "title": "E-Commerce UI",
+      "category": "web",
+      "image": "/project-4.jpg",
+      "link": "/projects/4",
+      "liveLink": "https://ecommerceui.example.com",
+      "description": "A full e-commerce frontend UI with shopping cart, product filters, and responsive layouts.",
+      "technologies": ["React", "Tailwind CSS", "Context API"]
+    },
+    {
+      "id": "5",
+      "title": "Finance App",
+      "category": "app",
+      "image": "/project-5.jpg",
+      "link": "/projects/5",
+      "liveLink": "https://financeapp.example.com",
+      "description": "A financial management mobile app with budgeting, transactions, and analytics features.",
+      "technologies": ["Flutter", "Dart", "Firebase"]
+    },
+    {
+      "id": "6",
+      "title": "Brand Identity",
+      "category": "branding",
+      "image": "/project-6.jpg",
+      "link": "/projects/6",
+      "liveLink": "https://brandidentity.example.com",
+      "description": "A complete brand identity package including logo, typography, and brand guidelines for a startup.",
+      "technologies": ["Figma", "Illustrator", "InDesign"]
+    }
+  ]
+  

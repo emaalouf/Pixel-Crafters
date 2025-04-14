@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Modern Website",
+      "category": "web",
+      "image": "/project-1.jpg",
+      "link": "/projects/1"
+    },
+    {
+      "id": 2,
+      "title": "Mobile App",
+      "category": "app",
+      "image": "/project-2.jpg",
+      "link": "/projects/2"
+    },
+    {
+      "id": 3,
+      "title": "Creative Logo",
+      "category": "branding",
+      "image": "/project-3.jpg",
+      "link": "/projects/3"
+    },
+    {
+      "id": 4,
+      "title": "E-Commerce UI",
+      "category": "web",
+      "image": "/project-4.jpg",
+      "link": "/projects/4"
+    },
+    {
+      "id": 5,
+      "title": "Finance App",
+      "category": "app",
+      "image": "/project-5.jpg",
+      "link": "/projects/5"
+    },
+    {
+      "id": 6,
+      "title": "Brand Identity",
+      "category": "branding",
+      "image": "/project-6.jpg",
+      "link": "/projects/6"
+    }
+  ]
+  
