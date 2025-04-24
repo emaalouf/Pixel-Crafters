@@ -48,7 +48,7 @@ const FooterMain = () => {
                                 <Link to="/contact" className="hover:text-[#FFB800] transition">Contact</Link>
                                 <Link to="/faq" className="hover:text-[#FFB800] transition">FAQs</Link>
                                 <Link to="/" className="hover:text-[#FFB800] transition">Privacy Policy</Link>
-                                <Link to="/" className="hover:text-[#fc2164] transition">Terms & Condition</Link>
+                                <Link to="/" className="hover:text-[#FFB800] transition">Terms & Condition</Link>
                             </div>
                         </div>
 
@@ -64,13 +64,13 @@ const FooterMain = () => {
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <FaWhatsapp className="text-[#FFB800] text-lg" />
-                                    <a href="tel:+8801685981149" className="hover:text-[#fc2164] transition">
+                                    <a href="tel:+8801685981149" className="hover:text-[#FFB800] transition">
                                         +8801685981149
                                     </a>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <MdMailOutline className="text-[#FFB800] text-lg" />
-                                    <a href="mailto:suzaul193@gmail.com" className="hover:text-[#fc2164] transition">
+                                    <a href="mailto:suzaul193@gmail.com" className="hover:text-[#FFB800] transition">
                                         suzaul193@gmail.com
                                     </a>
                                 </div>
