@@ -14,7 +14,7 @@ const ContactAddress = () => {
                     </div>
 
                     <h3 className="text-xl font-semibold text-blue-950">Phone</h3>
-                    <p className="text-gray-600 mt-3">+880 1685 981149</p>
+                    <p className="text-gray-600 mt-3">+9617666666</p>
 
                 </div>
                 <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg text-center transition-transform hover:scale-105">
@@ -22,7 +22,7 @@ const ContactAddress = () => {
                         <MdMailOutline className="text-blue-950" />
                     </div>
                     <h3 className="text-xl font-semibold text-blue-950">Email</h3>
-                    <p className="text-gray-600 mt-3">suzaul193@gmail.com</p>
+                    <p className="text-gray-600 mt-3">digital@forofor.com</p>
 
                 </div>
                 <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg text-center transition-transform hover:scale-105">
@@ -30,7 +30,7 @@ const ContactAddress = () => {
                         <SlLocationPin className="text-blue-950" />
                     </div>
                     <h3 className="text-xl font-semibold text-blue-950">Address</h3>
-                    <p className="text-gray-600 mt-3">South Banasree, Khilgoan, Dhaka, Bangladesh</p>
+                    <p className="text-gray-600 mt-3">Beirut, Lebanon</p>
 
                 </div>
 

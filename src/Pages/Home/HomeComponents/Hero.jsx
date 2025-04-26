@@ -1,67 +1,62 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-const slides = [
-  {
-    image: 'Hero-Slider-1.jpg',
-    heading: 'Welcome to Our World',
-    subheading: 'Explore, Dream, Discover',
-    button: 'Get Started',
-  },
-  {
-    image: 'Hero-Slider-2.jpg',
-    heading: 'Build Your Vision',
-    subheading: 'With Modern Solutions',
-    button: 'Get Started',
-  },
-  {
-    image: 'Hero-Slider-1.jpg',
-    heading: 'Innovation That Inspires',
-    subheading: 'Future is Now',
-    button: 'Get Started',
-  },
-];
-
 const Hero = () => {
-
   return (
-    <div>
-      <div className="w-full h-[500px] md:h-[600px]">
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 4000 }}
-          loop={true}
-          className="w-full h-full custom-swiper "
-        >
-          {slides.map((slide, index) => (
-            <SwiperSlide key={index}>
-              <div className="relative w-full h-full">
-                <img
-                  src={slide.image}
-                  alt={`slide-${index}`}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white text-center px-4">
-                  <h2 className="text-4xl md:text-5xl font-bold mb-2">{slide.heading}</h2>
-                  <p className="text-lg md:text-2xl py-4 mb-4 font-poppins">{slide.subheading}</p>
-                  <Link to="/contact">
-                    <button className="bg-[#FFB800] text-blue-950 px-6 py-2 rounded-full hover:bg-blue-950 hover:text-white hover:transition hover:scale-105 cursor-pointer font-black">
-                      {slide.button}
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+    <div className="relative w-full min-h-screen bg-gradient-to-b from-blue-950 to-black">
+      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="relative z-10 container mx-auto px-4 py-20 md:py-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* English Content */}
+          <div className="text-white space-y-6">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              Digital Craftsmanship for Every Ambition
+            </h1>
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+              We are a full-service digital agency offering world-class web development, 
+              app development, branding, UI/UX, and digital marketing solutions. 
+              Our bespoke approach combines luxury quality with accessibility, 
+              serving clients from ambitious startups to established corporations.
+            </p>
+            <div className="flex flex-wrap gap-4 pt-4">
+              <Link to="/portfolio">
+                <button className="bg-[#FFB800] text-blue-950 px-8 py-3 rounded-full hover:bg-white hover:text-blue-950 transition-all duration-300 font-bold">
+                  Explore Our Work
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button className="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-blue-950 transition-all duration-300 font-bold">
+                  Get Started
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          {/* Arabic Content */}
+          <div className="text-white space-y-6 text-right" dir="rtl">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              إبداع رقمي متفرد لكل طموح
+            </h1>
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+              نحن وكالة رقمية متكاملة الخدمات تقدم حلولاً عالمية في تطوير المواقع، 
+              تطوير التطبيقات، بناء الهوية، تصميم واجهة وتجربة المستخدم، والتسويق الرقمي. 
+              ندمج بين الجودة الفاخرة والقدرة على الوصول، لنخدم عملاءنا من الشركات الناشئة 
+              الطموحة إلى المؤسسات الكبرى الراسخة.
+            </p>
+            <div className="flex flex-wrap gap-4 pt-4 justify-end">
+              <Link to="/portfolio">
+                <button className="bg-[#FFB800] text-blue-950 px-8 py-3 rounded-full hover:bg-white hover:text-blue-950 transition-all duration-300 font-bold">
+                  استعرض أعمالنا
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button className="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-blue-950 transition-all duration-300 font-bold">
+                  ابدأ الآن
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

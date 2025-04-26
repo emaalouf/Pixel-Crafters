@@ -64,7 +64,7 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             <div className='flex justify-center items-center gap-8'>
-                                <Link to="/"><img src="/logo.png" alt="Logo" className="w-32 " /></Link>
+                                {/* <Link to="/"><img src="/logo.png" alt="Logo" className="w-32 " /></Link> */}
                             </div>
                         </div>
                         <div className="navbar-center hidden lg:flex gap-6 text-blue-950 font-bold">

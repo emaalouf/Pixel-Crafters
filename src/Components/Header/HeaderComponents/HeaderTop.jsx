@@ -16,15 +16,15 @@ const HeaderTop = () => {
                     <div className='flex justify-between  items-center py-3'>
                         <div className='flex items-center font-semibold  gap-3 text-white '>
                             <FaHome />
-                            <a href="tel:+8801685981149" className="hover:text-[#FFB800] transition">
-                                <p>+880 1685 981149</p>
+                            <a href="tel:+961766666666" className="hover:text-[#FFB800] transition">
+                                <p>+961 76666666</p>
                             </a>
 
                         </div>
                         <div className='flex items-center font-semibold  gap-3 text-white'>
                             <MdEmail />
-                            <a href="mailto:suzaul193@gmail.com" className="hover:text-[#FFB800] transition">
-                                <p>suzaul193@gmail.com</p>
+                            <a href="mailto:digital@forofor.com" className="hover:text-[#FFB800] transition">
+                                <p>digital@forofor.com</p>
                             </a>
 
                         </div>

@@ -20,7 +20,7 @@ const FooterMain = () => {
                       
                         <div className="flex flex-col gap-6">
                             <Link to="/">
-                                <img src="/logoW.png" alt="Logo" className="w-32" />
+                                {/* <img src="/logoW.png" alt="Logo" className="w-32" /> */}
                             </Link>
                             <p className="text-white">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.
@@ -60,18 +60,18 @@ const FooterMain = () => {
                             <div className="flex flex-col gap-4">
                                 <div className="flex items-start gap-3">
                                     <SlLocationPin className="text-[#FFB800] text-xl mt-1" />
-                                    <p>South Banasree, Khilgoan, Dhaka, Bangladesh</p>
+                                    <p>Beirut, Lebanon</p>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <FaWhatsapp className="text-[#FFB800] text-lg" />
-                                    <a href="tel:+8801685981149" className="hover:text-[#FFB800] transition">
-                                        +8801685981149
+                                    <a href="tel:+9617666666" className="hover:text-[#FFB800] transition">
+                                        +9617666666
                                     </a>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <MdMailOutline className="text-[#FFB800] text-lg" />
-                                    <a href="mailto:suzaul193@gmail.com" className="hover:text-[#FFB800] transition">
-                                        suzaul193@gmail.com
+                                    <a href="mailto:digital@forofor.com" className="hover:text-[#FFB800] transition">
+                                        digital@forofor.com
                                     </a>
                                 </div>
 
